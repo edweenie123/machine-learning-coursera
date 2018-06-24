@@ -48,12 +48,10 @@ X = [ones(m, 1) X];
 %         fmincg (@(t)(lrCostFunction(t, X, (y == c), lambda)), ...
 %                 initial_theta, options);
 %
+
 options = optimset('GradObj', 'on', 'MaxIter', 50);
 initial_theta = zeros(n+1, 1);
 for i = 1:num_labels
-    %[theta] = fmincg (@(t)(lrCostFunction(t, X, (y == i), lambda)), ...
-    %              initial_theta, options);
-    
     lrCostFunction1 = @(t)(lrCostFunction(t, X, (y == i), lambda));
     [theta] = fmincg (lrCostFunction1, ...
                   initial_theta, options);
