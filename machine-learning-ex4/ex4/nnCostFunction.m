@@ -94,7 +94,6 @@ for t = 1:m
 
     Theta1_grad = Theta1_grad + delta_2(2:end)' * a_1; % 25x1 * 1x401 = 25x401 
     Theta2_grad = Theta2_grad + delta_3' * a_2; % 10x1 * 1x26 = 10x26 
-    
 end
 
 Theta1_grad(:, 1) = (1/m) * Theta1_grad(:, 1);
