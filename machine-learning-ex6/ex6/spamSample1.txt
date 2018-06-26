@@ -1,0 +1,9 @@
+Info about spam
+
+Hi Edwin,
+I hope your machine learning journey is going well.
+Just a friendly FYI, about the profitabilty of building a spam classifier.
+After the AI winter is over, I hope to finally fulfill my dream of starting my own ML startup.
+
+Thanks for your time,
+Mr. Winkelstrump
