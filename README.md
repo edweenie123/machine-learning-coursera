@@ -1,7 +1,7 @@
 # Machine Learning Assignments (Coursera):
 Contains my assignments for Andrew Ng's Machine Learning course on Coursera. 
 
-Assignments are written in Matlab and using Octave (free compatible version of Matlab)
+Assignments are written in Matlab and tested using Octave 
 
 All assignments run fine and achieved full marks on the Coursera grader.
 
